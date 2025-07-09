@@ -1,4 +1,37 @@
 /* styles.css */
-body {
-  background-color: rebeccapurple;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  gap: 5px;
+}
+
+.wide {
+  outline: 1px solid black;
+  height: 200px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+    outline: 2px solid blue;
+    height: 200px;
+    width: 200px;
+}
+
+
