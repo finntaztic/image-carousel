@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-
 body{
     display: flex;
     justify-content: center;
@@ -16,22 +15,23 @@ body{
 img {
   height: 200px;
   width: 200px;
-  gap: 5px;
 }
 
-.wide {
+.box {
   outline: 1px solid black;
   height: 200px;
   width: 600px;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.container {
+.spot {
     outline: 2px solid blue;
     height: 200px;
     width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 
