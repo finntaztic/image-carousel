@@ -31,7 +31,17 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
+
+.box img {
+  /* display: none; */
+}
+
+.displayImg {
+  display: block;
+}
+
+
 
 

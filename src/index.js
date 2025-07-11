@@ -1,18 +1,13 @@
 import "./styles.css";
 
-const prevBtn = document.querySelector('.prev');
-console.log(prevBtn);
+const slides = document.querySelectorAll('.box img');
+console.log(slides);
+const imgIndex = 0;
 
-// prevBtn.addEventListener ('click', () => {
-//     console.log('hello');
-//     const box = document.querySelector('.box');
+showImage()
+function showImage (){
+//    const firstImg = slides[imgIndex].classList.add(displayImg);
+   const firstImg = slides[imgIndex];
+   console.log(firstImg);
 
-// });
-
-let image = 0;
-showImage(image);
-
-function showImage (n){
-    let images = document.getElementsByTagName('img');
-    console.log(images);
 }
