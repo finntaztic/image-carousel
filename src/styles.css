@@ -35,10 +35,10 @@ img {
 }
 
 .box img {
-  /* display: none; */
+  display: none;
 }
 
-.displayImg {
+.displayImg img {
   display: block;
 }
 
