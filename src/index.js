@@ -1,6 +1,9 @@
 import "./styles.css";
 
 const slides = document.querySelectorAll('.box img');
+const dots = document.querySelectorAll('.dots button');
+console.log(dots);
+
 let imgIndex = 0; // start from the first image
 
 showImage(imgIndex);
@@ -36,3 +39,28 @@ nextBtn.addEventListener('click', () => {
     }
     showImage(imgIndex);
 });
+
+// dots.addEventListener('click', (e) => {
+//     console.log(e.target);
+// })
+
+// dots.forEach(dot => {
+//     dot.addEventListener('click', () => {
+//         // console.log(e.target);
+//     })
+// })
+// // document.getElementsByClassName('.firstBtn').addEventListener('click', () => {showImage(0)});
+// // document.getElementsByClassName('.secondBtn').addEventListener('click', () => {showImage(1)});
+// // document.getElementsByClassName('.thirdBtn').addEventListener('click', () => {showImage(2)});
+
+
+const firstBtn = document.querySelector('#firstBtn');
+const secondBtn = document.querySelector('#secondBtn');
+const thirdBtn = document.querySelector('#thirdBtn');
+
+console.log(firstBtn);
+
+firstBtn.addEventListener('click', () => {showImage(0)});
+secondBtn.addEventListener('click', () => {showImage(1)});
+thirdBtn.addEventListener('click', () => {showImage(2)});
+

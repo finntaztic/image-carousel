@@ -7,11 +7,16 @@
 
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
+.first {
+  display: flex;
+  flex-direction: row;
+}
 img {
   height: 200px;
   width: 200px;
