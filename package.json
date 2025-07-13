@@ -9,7 +9,7 @@
     "webpack-dev-server": "^5.2.2"
   },
   "name": "@finntaztic/image-carousel-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/index.js",
   "license": "MIT",
   "description": "A simple dropdown module"
